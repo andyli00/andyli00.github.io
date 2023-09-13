@@ -28,7 +28,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-twothird">
       <h5 class="w3-padding-32">Introduction</h5>
 
-      <p class="w3-text-grey">My name is Andy and I’m a 5th year Computer Science student at the University of Guelph. From January to September 2022 I worked as a co-op software developer at MANTECH Inc. This website is a summary and reflection on my time there.</p>
+      <p class="w3-text-grey">My name is Andy and I’m a Computer Science student at the University of Guelph. During the summer of 2023 I worked as a co-op program developer at Domco Group of Canada. This website is a summary and reflection on my time there.</p>
     </div>
 
     <div class="w3-third w3-center">
@@ -42,15 +42,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-        <img src="mantech.jpg">
+        <img src="domco.jpg">
     </div>
 
     <div class="w3-twothird">
-      <h5 class="w3-padding-32">About MANTECH Inc</h5>
+      <h5 class="w3-padding-32">About Domco</h5>
 
-      <p class="w3-text-grey">MANTECH produces hardware and software used for water and soil analysis. This relates to computer science in that the hardware requires embedded software to function as well as standalone software which can communicate with the hardware.
-           MANTECH has two software products; BOD Pro which is used to efficiently run 5-day biochemical oxygen demand (BOD5) analyses, and MATECH Pro which has centralized automation capabilities for a number of other analyses. 
-           I worked on MANTECH Pro during my co-op.</p>
+      <p class="w3-text-grey">Domco is a leading provider of remote site services including catering, housekeeping, facility maintenance, and camp management with over 70 years of experience. 
+        This doesn't directly relate to computer science, but they had a program that needed to be developed and that was my main task.
+      </p>
     </div>
   </div>
 </div>
@@ -59,9 +59,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <h5 class="w3-padding-32">Goals</h5>
 
-    <p class="w3-text-grey">Going into the placement, I wasn’t really sure what to expect and didn’t particularly have any concrete goals as it was my first co-op and first experience programming in a professional setting. 
-        My goals were things like developing oral communication, teamwork, and technical skills. For my second set of learning goals halfway through my placement, I was able to come up with much more specific goals with the experience I had gained so far. 
-        My new goals were things like being better at giving people updates of what I’m doing, and improving the quality of my code to lower the amount of bugs that would be found by QC.</p>
+    <p class="w3-text-grey">Going into the placement, I knew it would be a new experience as instead of joining an existing software development team like my previous coop, I'd be communicating directly with a "client"
+      (my employer) to develop a program that satisfies their needs. I knew I would need to gather requirements and translate them to code. So my main goals were to continously improve my communication skills and my ability to 
+      translate requirements into code.
+    </p>
   </div>
 </div>
 
@@ -69,22 +70,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <h5 class="w3-padding-32">My Experience</h5>
 
-    <p class="w3-text-grey">As mentioned above, I worked on the MANTECH Pro software, which is capable of automating a number of chemical analyses through custom user-made scripting functionality. 
-        The software is written in C#, uses the Telerik .NET framework for UI, and interacts with a local sqlite database. It was my first experience using C# but the learning curve was fairly manageable since I had experience with Java in school. 
-        I was also familiar with using UI frameworks (JavaFX) and had taken CIS*3530 Databases previously.
-        <br>
-        After being familiarized with the codebase by making some UML diagrams and working on a few small features/bugs, I was given my first major project: database archiving and backups. 
-        The desire for archiving was because when users run scripts for analyses, a record of that run as well as records for whatever analyses are done are stored in the local database. 
-        Over time, the database becomes bloated with lots of old data that isn’t often needed. Archiving data lets it still be accessed if needed while also clearing up space in the local db and speeding things up. 
-        Eventually, the ability to backup databases was added onto this feature as there was a lot of shared functionality.
-        <br>
-        I started by planning out as much of the functionality as I could - I was asking various questions and discussing the feature during standups for a week or so. 
-        Thanks to this meticulous planning phase, work went fairly smooth when I started coding. I still ran into some issues, but not nearly as many as I would have without the planning I had done. 
-        Many of the issues I had were to do with the database; even though I had taken a database course which definitely helped significantly, I didn’t have real-world experience and so I learned a lot by working on this project. 
-        <br>
-        I finished this project in a couple weeks, but since it wasn’t a major priority it wasn’t merged into the live product for a while. 
-        A few months later, I had some downtime between projects and decided to look back on this project as I now had more experience. 
-        Sure enough, there was lots to clean up. Most of the issues I found were just inefficient or messy code, but I did find a couple bugs which made me glad that I took another look at it and also made QC’s job a little easier.
+    <p class="w3-text-grey">
+      The main project I worked on was a program to help automate the analysis of various reports to help Domco understand their expenses and other statistics.
+      The core of the problem was to perform various calculations on data and then move it between Excel sheets. I had experience in a previous course with the Python pandas library for data manipulation 
+      and analysis, so I decided to write the program using that. 
+      <br>
+      I split development into a few stages, making incremental progress and sharing it to discuss and ask for feedback. The first stage was simply performing all the calculations
+      and verifying that they were correct. The second was moving the data, which ended up being trickier than expected because they had to be in a different order.
+      <br>
+      Along the way there were various small things that came up in development, and either I would make a suggestion to my supervisor on how to handle it or we would discuss a solution. Overall I 
+      feel that my technical communication significantly improved by discussing the program with someone who isn't a programmer.
     </p>
   </div>
 </div>
@@ -93,8 +88,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <h5 class="w3-padding-32">Conclusion</h5>
 
-    <p class="w3-text-grey">Overall, my co-op at MANTECH was an extremely valuable first experience in professional software development. I met all of my learning goals and am satisfied with my performance.
-        I couldn’t have asked for a better place to start my career in software development.
+    <p class="w3-text-grey">My co-op at Docmo was an extremely valuable experience software development. I learned how to handle the development of a program mostly independently, and 
+      improved my technical communication.
     </p>
   </div>
 </div>
@@ -103,7 +98,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <h5 class="w3-padding-32">Acknowledgements</h5>
 
-    <p class="w3-text-grey">MANTECH logo belongs to MANTECH. Website css adapted from <a href="https://www.w3schools.com/w3css/w3css_templates.asp">w3schools.</a></p>
+    <p class="w3-text-grey">Domco logo belongs to Domco Group of Canada. Website css adapted from <a href="https://www.w3schools.com/w3css/w3css_templates.asp">w3schools.</a></p>
   </div>
 </div>
 
